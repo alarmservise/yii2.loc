@@ -30,7 +30,7 @@ class MenuWidget extends Widget
 
     public function run()
     {
-        $this->data = Category::find()->select()->indexBy('id')->asArray()->all();
+        $this->data = Category::find()->select('id,parent_id,title')->indexBy('id')->asArray()->all();
         debug($this->data);
 
         return $this->tpl;
