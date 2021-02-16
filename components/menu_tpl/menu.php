@@ -7,7 +7,7 @@
             <div class="w3ls_vegetables">
                 <ul>
                     <li><a href="drinks.html">Soft Drinks Test</a></li>
-                    <li><a href="drinks.html">Juice</a></li>
+                    <li><a href="drinks.html">Juice Test2</a></li>
                 </ul>
             </div>
         </div>
