@@ -6,8 +6,7 @@
         <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
             <div class="w3ls_vegetables">
                 <ul>
-                    <li><a href="drinks.html">Soft Drinks Test</a></li>
-                    <li><a href="drinks.html">Juice Test2</a></li>
+                   <?= $this->getMenuHtml($category['children']) ?>
                 </ul>
             </div>
         </div>
